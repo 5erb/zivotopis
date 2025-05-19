@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-image: url("fotky/paul-volkmer-qVotvbsuM_c-unsplash.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color:white;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #aaa;
+  margin-bottom: 1.5rem;
+}
+
+.content-box {
+  border: 4px solid #fff;
+  padding: 20px;
+  box-shadow: 4px 4px 0 #555;
+  margin-bottom: 2rem;
+  text-align: left;
+  font-size: 1rem;
+  color: #ddd;
+  line-height: 1.6;
+}
+
+.footer {
+  margin-top: 2rem;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  size: 34px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
